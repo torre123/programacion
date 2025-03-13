@@ -1,0 +1,25 @@
+
+package Tiagoo;
+import java.util.Scanner;
+public class calculadora {
+    public static void main(String[] args) {
+          
+        int mult,sum,div,rest; 
+        Scanner sc= new Scanner(System.in);
+        System.out.println("ingrese el primer numero");
+        int num1=sc.nextInt();
+        
+        Scanner sc2= new Scanner(System.in);
+        System.out.println("ingrese el segundo numero");
+        int num2=sc2.nextInt();
+        
+        Scanner sc3= new Scanner(System.in);
+        System.out.println("ingrese la operacion");
+        String cal=sc3.toString();
+        
+        System.out.println("suma es igual a: "+(num1+num2);
+  
+    }
+ 
+    
+}
